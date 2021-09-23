@@ -24,6 +24,8 @@
     <IncludeSymbols Condition=" '$(DebugType)' != 'embedded' ">true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
 
+    <GeneratePackageOnBuild Condition=" '$(QBuild)' == '1' ">true</GeneratePackageOnBuild>
+
     <MicroBuildVersion>2.0.66</MicroBuildVersion>
   </PropertyGroup>
 
