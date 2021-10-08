@@ -25,7 +25,7 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
 
     <GeneratePackageOnBuild Condition=" '$(QBuild)' == '1' ">true</GeneratePackageOnBuild>
-    <NBGV_CachingProjectReference Condition=" '$(QBuild)' == '1' ">$(MSBuildThisFileDirectory)VersionGeneration\VersionGeneration.msbuildproj</NBGV_CachingProjectReference>
+    <NBGV_CachingProjectReference>$(MSBuildThisFileDirectory)VersionGeneration\VersionGeneration.msbuildproj</NBGV_CachingProjectReference>
 
     <MicroBuildVersion>2.0.66</MicroBuildVersion>
   </PropertyGroup>
